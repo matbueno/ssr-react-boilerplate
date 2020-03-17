@@ -1,5 +1,5 @@
-# Matt's Node Mongo Boilerplate
-This is a dead simple Node.js with Express.js and MongoDB boilerplate using Babel and Nodemon.
+# Matt's SSR React Boilerplate
+This is a opinionated SSR React App boilerplate, using Next.js, Node.js with Express.js and MongoDB, Babel and Nodemon.
 
 ## Requirements
 - Yarn v1+
@@ -16,3 +16,12 @@ This is a dead simple Node.js with Express.js and MongoDB boilerplate using Babe
 
 ## Production mode
 Running `yarn build` webpack will build the app into a `dist` folder and then express server will be started.
+
+## Folder Structure
+### Backend
+- The api apps are in the `src/api` folder
+- The apps consist of a collection of the app's models and a router and folder for each of the endpoints versions, the folder consists of a router and a controller.
+
+### Frontend
+- Pages are kept in the `src/pages` folder
+- Components are organized using [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)
