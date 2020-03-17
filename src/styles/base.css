@@ -1,0 +1,7 @@
+/* Put your CSS reset in this file */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
