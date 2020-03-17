@@ -1,5 +1,5 @@
 {
-  "extends": "airbnb-base",
+  "extends": ["airbnb-base", "plugin:react/recommended"],
   "env": {
     "node": true,
     "browser": true
@@ -16,7 +16,11 @@
       {
         "allow": ["warn", "info", "error"]
       }
-    ]
+    ],
+    "react/react-in-jsx-scope": "off"
+  },
+  "globals": {
+    "React": "writable"
   },
   "settings": {
     "import/resolver": {

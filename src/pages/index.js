@@ -1,8 +1,6 @@
-import '_styles/base.css'
-
 const Index = () => (
   <div className="container">
-    <p>Welcome to @matbueno's SSR React Boilerplate</p>
+    <p>Welcome to @matbueno&apos;s SSR React Boilerplate</p>
   </div>
 )
 
